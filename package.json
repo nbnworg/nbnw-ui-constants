@@ -1,0 +1,13 @@
+{
+  "name": "uinbnwconstants",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "usedConstants.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "NBNW",
+  "license": "MIT"
+}
