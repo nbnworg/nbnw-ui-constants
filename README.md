@@ -1,6 +1,6 @@
 It contains <br /> **Enums**  : QueryType,API_PATHS,ComponentSize,ComponentColorType,ComponentType . <br />
 **Interfaces**  MetaData, PostMetaData, Post .<br />
-and  categories .
+**Categories** which are exported by name **supportedCategories**<br />
 To include the package in project : <br />
 1 Add a .npmrc file  <br />
 //12-digit-id.d.codeartifact.us-east-1.amazonaws.com/npm/nbnw-repo/:always-auth=true
