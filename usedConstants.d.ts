@@ -90,3 +90,7 @@ export declare enum API_PATHS {
   NOTIFY = '/notify',
   DRAFT = '/draft',
 }
+export declare const supportedCategories: {
+  category: string;
+  subCategories?: string[];
+}[];
