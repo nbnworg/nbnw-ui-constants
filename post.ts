@@ -5,7 +5,7 @@ export interface Metadata {
   lastModifiedDate?: string;
 }
 export interface PostMetadata extends Metadata {
-  id: string; // Same as postid.
+  id: string;
   category: string;
   tags: string[];
   summary?: string;
