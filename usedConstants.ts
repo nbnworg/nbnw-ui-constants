@@ -76,7 +76,12 @@ export interface Post {
   lastModifiedBy?: string;
   lastModifiedDate?: string;
 }
-
+export interface PostEditor extends Post {
+  date: number;
+}
+export interface PostFrontend extends Post {
+  date: string;
+}
 export enum API_PATHS {
   NEWS = '/news',
   AUTHOR = '/author',

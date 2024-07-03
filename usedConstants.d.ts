@@ -80,7 +80,12 @@ export declare interface Post {
   lastModifiedBy?: string;
   lastModifiedDate?: string;
 }
-
+export declare interface PostEditor extends Post {
+  date: number;
+}
+export declare interface PostFrontend extends Post {
+  date: string;
+}
 export declare enum API_PATHS {
   NEWS = '/news',
   AUTHOR = '/author',
