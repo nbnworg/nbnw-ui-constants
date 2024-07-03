@@ -16,7 +16,6 @@ export declare enum QueryType {
   SEARCH = 'search',
   AUTHOR = 'author',
 }
-
 export declare enum ComponentSize {
   extrasmall = 'extrasmall',
   small = 'small',
@@ -86,6 +85,11 @@ export declare interface PostEditor extends Post {
 export declare interface PostFrontend extends Post {
   date: string;
 }
+
+export declare const supportedCategories: {
+  category: string;
+  subCategories?: string[];
+}[];
 export declare enum API_PATHS {
   NEWS = '/news',
   AUTHOR = '/author',
@@ -94,7 +98,3 @@ export declare enum API_PATHS {
   NOTIFY = '/notify',
   DRAFT = '/draft',
 }
-export declare const supportedCategories: {
-  category: string;
-  subCategories?: string[];
-}[];
