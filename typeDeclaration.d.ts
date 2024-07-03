@@ -43,8 +43,7 @@ export declare interface Metadata {
   lastModifiedBy?: string;
   lastModifiedDate?: string;
 }
-
-export declare interface PostMetadata {
+export declare interface PostMetadata extends Metadata {
   id: string;
   category: string;
   tags: string[];
@@ -54,30 +53,13 @@ export declare interface PostMetadata {
   href: string;
   images?: string[];
   imageAttribution?: string;
-  createdBy?: string;
-  createdDate?: string;
-  lastModifiedBy?: string;
-  lastModifiedDate?: string;
 }
 
-export declare interface Post {
-  id: string;
+export declare interface Post extends PostMetadata {
   contents: string[];
   subcategory?: string;
   content: string;
   approved?: string;
-  category: string;
-  tags: string[];
-  summary?: string;
-  title: string;
-  reviewers?: string[];
-  href: string;
-  images?: string[];
-  imageAttribution?: string;
-  createdBy?: string;
-  createdDate?: string;
-  lastModifiedBy?: string;
-  lastModifiedDate?: string;
 }
 export declare interface PostEditor extends Post {
   date: number;
