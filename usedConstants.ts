@@ -62,7 +62,6 @@ export interface Post {
   contents: string[];
   subcategory?: string;
   content: string;
-  date: number;
   approved?: string;
   category: string;
   tags: string[];
@@ -77,26 +76,7 @@ export interface Post {
   lastModifiedBy?: string;
   lastModifiedDate?: string;
 }
-export interface PostFrontend {
-  id: string;
-  contents: string[];
-  subcategory?: string;
-  content: string;
-  date: string;
-  approved?: string;
-  category: string;
-  tags: string[];
-  summary?: string;
-  title: string;
-  reviewers?: string[];
-  href: string;
-  images?: string[];
-  imageAttribution?: string;
-  createdBy?: string;
-  createdDate?: string;
-  lastModifiedBy?: string;
-  lastModifiedDate?: string;
-}
+
 export enum API_PATHS {
   NEWS = '/news',
   AUTHOR = '/author',
