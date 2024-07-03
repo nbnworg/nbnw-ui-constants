@@ -66,7 +66,6 @@ export declare interface Post {
   contents: string[];
   subcategory?: string;
   content: string;
-  date: number;
   approved?: string;
   category: string;
   tags: string[];
