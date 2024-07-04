@@ -1,13 +1,16 @@
 {
   "name": "nbnw-ui-constants",
-  "version": "1.0.8",
-  "main": "src/main.js",
-  "types": "typeDeclaration.d.ts",
+  "version": "1.0.9",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
   "author": "NBNW",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }

@@ -7,9 +7,3 @@ export enum ComponentSize {
   textRight = 'textRight',
   textDown = 'textDown',
 }
-
-export enum ComponentColorType {
-  primary = 'primary',
-  secondary = 'secondary',
-  tertiary = 'tertiary',
-}
