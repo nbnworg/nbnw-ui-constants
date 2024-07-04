@@ -1,4 +1,4 @@
-import { Metadata } from './metaData';
+import { Metadata } from './MetaData';
 export interface PostMetadata extends Metadata {
   id: string;
   category: string;
