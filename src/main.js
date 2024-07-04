@@ -13,14 +13,14 @@ import {
 } from './interfaces/allPost';
 export {
   supportedCategories,
+  ComponentColorType,
+  ComponentSize,
   API_PATHS,
   QueryType,
+  ComponentType,
   Metadata,
-  PostMetadata,
   Post,
   PostEditor,
   PostFrontend,
-  ComponentColorType,
-  ComponentSize,
-  ComponentType,
+  PostMetadata,
 };
