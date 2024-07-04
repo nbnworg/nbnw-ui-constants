@@ -13,7 +13,3 @@ export enum ComponentColorType {
   secondary = 'secondary',
   tertiary = 'tertiary',
 }
-export interface ComponentType {
-  size?: ComponentSize;
-  colorType?: ComponentColorType;
-}

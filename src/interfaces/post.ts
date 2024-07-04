@@ -1,9 +1,4 @@
-export interface Metadata {
-  createdBy?: string;
-  createdDate?: string;
-  lastModifiedBy?: string;
-  lastModifiedDate?: string;
-}
+import { Metadata } from './metaData';
 export interface PostMetadata extends Metadata {
   id: string;
   category: string;
