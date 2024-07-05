@@ -14,7 +14,6 @@ export {
   ComponentColorType,
   ComponentSize,
   QueryType,
-  ComponentType,
   Metadata,
   Post,
   PostEditor,
