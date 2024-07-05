@@ -1,7 +1,7 @@
 {
   "name": "nbnw-ui-constants",
-  "version": "1.0.10",
-  "main": "src/main.js",
+  "version": "1.0.0",
+  "main": "main.js",
   "types": "typeDeclaration.d.ts",
   "scripts": {
     "build": "tsc",

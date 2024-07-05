@@ -1,4 +1,3 @@
-import { Metadata } from './metaData';
 import { PostMetadata } from './postMetaData';
 export interface Post extends PostMetadata {
   contents: string[];

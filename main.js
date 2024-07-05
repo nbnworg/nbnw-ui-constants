@@ -10,8 +10,7 @@ import { Post } from './interfaces/post';
 import { PostEditor } from './interfaces/postEditor';
 import { PostFrontend } from './interfaces/postFrontend';
 import { PostMetadata } from './interfaces/postMetaData';
-// "main": "src/main.js",
-//   "types": "typeDeclaration.d.ts",
+
 export {
   supportedCategories,
   API_PATHS,
