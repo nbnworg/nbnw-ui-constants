@@ -1,22 +1,21 @@
 // index.js
-import { supportedCategories } from './constants/categories';
-import { API_PATHS } from './enums/apiPaths';
-import { ComponentColorType } from './enums/componentColorType';
-import { ComponentSize } from './enums/componentSize';
-import { QueryType } from './enums/queryType';
-// import { ComponentType } from './interfaces/componentType';
-
-import { Metadata, PostMetadata, Post, PostEditor, PostFrontend } from './post';
-
-export {
-  supportedCategories,
-  API_PATHS,
+import { supportedCategories } from './categories';
+import {
   ComponentColorType,
   ComponentSize,
+  ComponentType,
+} from './componentProps';
+import { Metadata, PostMetadata, Post, PostEditor, PostFrontend } from './post';
+import { QueryType } from './queryType';
+export {
+  supportedCategories,
   QueryType,
   Metadata,
+  PostMetadata,
   Post,
   PostEditor,
   PostFrontend,
-  PostMetadata,
+  ComponentColorType,
+  ComponentSize,
+  ComponentType,
 };
