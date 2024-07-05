@@ -4,18 +4,9 @@ import { API_PATHS } from './enums/apiPaths';
 import { ComponentColorType } from './enums/componentColorType';
 import { ComponentSize } from './enums/componentSize';
 import { QueryType } from './enums/queryType';
-import { ComponentType } from './interfaces/componentType';
-// import { Metadata } from './interfaces/metaData';
-import {
-  Metadata,
-  PostMetadata,
-  Post,
-  PostEditor,
-  PostFrontend,
-} from './interfaces/post';
-// import { PostEditor } from './interfaces/postEditor';
-// import { PostFrontend } from './interfaces/postFrontend';
-// import { PostMetadata } from './interfaces/postMetaData';
+// import { ComponentType } from './interfaces/componentType';
+
+import { Metadata, PostMetadata, Post, PostEditor, PostFrontend } from './post';
 
 export {
   supportedCategories,
