@@ -1,15 +1,15 @@
 // index.js
-import { supportedCategories } from './constants/categories';
-import { API_PATHS } from './enums/apiPaths';
-import { ComponentSize } from './enums/componentSize';
-import { ComponentColorType } from './enums/componentColorType';
-import { QueryType } from './enums/queryType';
-import * as x from './interfaces/post';
-import * as y from './interfaces/componentType';
-import * as z from './interfaces/metaData';
-import * as a from './interfaces/postMetaData';
-import * as b from './interfaces/postEditor';
-import * as c from './interfaces/postFrontend';
+import { supportedCategories } from './newsDefinitions/constants/categories';
+import { API_PATHS } from '.newsDefinitions/enums/apiPaths';
+import { ComponentSize } from '.newsDefinitions/enums/componentSize';
+import { ComponentColorType } from '.newsDefinitions/enums/componentColorType';
+import { QueryType } from '.newsDefinitions/enums/queryType';
+import * as x from '.newsDefinitions/interfaces/post';
+import * as y from '.newsDefinitions/interfaces/componentType';
+import * as z from '.newsDefinitions/interfaces/metaData';
+import * as a from '.newsDefinitions/interfaces/postMetaData';
+import * as b from '.newsDefinitions/interfaces/postEditor';
+import * as c from '.newsDefinitions/interfaces/postFrontend';
 
 const Metadata = z.Metadata;
 const PostMetadata = a.PostMetadata;
