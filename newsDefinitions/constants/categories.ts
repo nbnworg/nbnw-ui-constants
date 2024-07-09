@@ -1,5 +1,13 @@
 export const supportedCategories = [
-  { category: 'Market', subCategories: ['US market', 'International'] },
+  {
+    category: 'World',
+    subCategories: [
+      'Climate',
+      'Health and Wellness',
+      'US Market',
+      'International',
+    ],
+  },
   { category: 'Business', subCategories: ['Economy', 'Finance', 'Industrial'] },
   { category: 'Tech', subCategories: ['Internet', 'Media', 'Social Media'] },
   { category: 'Politics' },
